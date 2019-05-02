@@ -2,6 +2,11 @@
   background-color: black;
 }
 
+.navbar {
+  margin-left: 50px;
+
+}
+
 .list-group-item {
   line-height: 2.5;
 }
