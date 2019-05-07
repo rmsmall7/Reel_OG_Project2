@@ -97,3 +97,19 @@ var handleDeleteBtnClick = function() {
 // Add event listeners to the submit and delete buttons
 $submitBtn.on("click", handleFormSubmit);
 $exampleList.on("click", ".delete", handleDeleteBtnClick);
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDWIam8b85rg-wubn3YGl5BWTTGg3oGa7E",
+    authDomain: "reel-ogs.firebaseapp.com",
+    databaseURL: "https://reel-ogs.firebaseio.com",
+    projectId: "reel-ogs",
+    storageBucket: "reel-ogs.appspot.com",
+    messagingSenderId: "274209997779",
+    appId: "1:274209997779:web:76c20c22f7e6877e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
