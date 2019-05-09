@@ -9,7 +9,7 @@ module.exports = function(app) {
   });
 
   // Create a new movie
-  app.post("/api/movies", function(req, res) {
+  app.post("/api/addNew", function(req, res) {
     db.Movies.create(req.body).then(function(dbMovies) {
       res.json(dbMovies);
     });
