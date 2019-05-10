@@ -1,7 +1,17 @@
-.body {
-  background-color: black;
-  padding-left: 40px;
-}
+ .body { 
+   background-color: black; 
+   padding-left: 40px; 
+   background-image: url("../images/Vecteezy-17-9330-05.jpg");
+   width: 600px;
+   height: 600px;
+ } 
+
+
+/* .body {
+  background-image:  'public/images/Vecteezy-17-9330-05.jpg';
+} */
+
+
 
 #search {
   margin-left: 600px;
@@ -39,7 +49,19 @@ h4 {
   size: 7x;
 }
 
-
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;  
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;           
+}
 
 
 
