@@ -3,4 +3,5 @@ DROP DATABASE IF EXISTS movies_db;
 -- Creates the "movies_db" database --
 CREATE DATABASE movies_db;
 
+
 USE movies_db;
