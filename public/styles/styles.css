@@ -3,27 +3,10 @@
    background-color: black; 
    padding-left: 40px; 
    background-image: url("../images/Vecteezy-17-9330-05.jpg");
-	 /* width:100%;
-	 height: 10vw;
-	 object-fit: cover; */
 	 background-repeat: no-repeat;
 	 background-size: 1500px 1000px;
 	 padding-top:10px;
  } 
-
-
-/* .body {
-  background-image:  'public/images/Vecteezy-17-9330-05.jpg';
-} */
-
-
-
-/* .body {
-  background-color: black;
-  padding-left: 40px;1
- 
-  } */
-
 
 #search {
   margin-left: 600px;
@@ -81,53 +64,6 @@ h4 {
 	height: 2.5rem;
 }
 
-/* body {
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, pink, orange, red, green, yellow, turquoise, indigo, violet);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
-	padding-left:40px;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	} */
-/* }
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-} */
-
-/* @keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-} */
 
 h1,
 h6 {
@@ -154,7 +90,7 @@ h6 {
 	padding: 1px;
 }
 
-#footLog:{
+#footLog {
 	float:right;
 }
 
@@ -169,4 +105,10 @@ h6 {
 	width: 100%;
 	 color: white;
 	 float:right;
+ }
+
+ #addMe {
+	 width: 100%;
+	 background-color: green;
+	 color: yellow;
  }
