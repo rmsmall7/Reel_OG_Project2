@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
 
 // Import routes and give the server access to them.
-var routes = require('./controllers/movie_controller.js');
+var routes = require('./controller/movie_controller');
 app.use('/', routes);
 
 // Start listening.
